@@ -28,6 +28,8 @@ $("#phaohoa").fireworks({
   height: "100%",
 });
 
+alert("Chúc mừng năm mới 2022!");
+
 // setInterval(() => {
 //     var HIENTAI = new Date.getTime();
 //     var D = (NGAYTET = HIENTAI);
