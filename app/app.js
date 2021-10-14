@@ -20,6 +20,14 @@ setInterval(function () {
   document.getElementById("seconds").innerText = seconds;
 }, 1000);
 
+//run phao hoa
+$("#phaohoa").fireworks({
+  sound: true,
+  opacity: 0.9,
+  width: "100%",
+  height: "100%",
+});
+
 // setInterval(() => {
 //     var HIENTAI = new Date.getTime();
 //     var D = (NGAYTET = HIENTAI);
