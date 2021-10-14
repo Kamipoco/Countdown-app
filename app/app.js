@@ -49,7 +49,7 @@ setTimeout(function () {
     width: "100%",
     height: "100%",
   });
-}, 3000);
+}, 5000);
 
 // setInterval(() => {
 //     var HIENTAI = new Date.getTime();
