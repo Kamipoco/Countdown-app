@@ -18,17 +18,38 @@ setInterval(function () {
   document.getElementById("hours").innerText = hours;
   document.getElementById("minutes").innerText = minutes;
   document.getElementById("seconds").innerText = seconds;
+
+  //run phao hoa
+  // if (days == 77 && hours == 22 && minutes == 43 && seconds == 0) {
+  //   $("#phaohoa").fireworks({
+  //     sound: true,
+  //     opacity: 0.9,
+  //     width: "100%",
+  //     height: "100%",
+  //   });
+  // }
 }, 1000);
 
-//run phao hoa
-$("#phaohoa").fireworks({
-  sound: true,
-  opacity: 0.9,
-  width: "100%",
-  height: "100%",
-});
+//DOM Or with jQuery MODAL
+M.AutoInit();
 
-alert("Chúc mừng năm mới 2022!");
+// document.addEventListener("DOMContentLoaded", function () {
+//   var elems = document.querySelectorAll(".modal");
+//   var instances = M.Modal.init(elems, options);
+// });
+
+// $(document).ready(function () {
+//   $(".modal").modal();
+// });
+
+setTimeout(function () {
+  $("#phaohoa").fireworks({
+    sound: true,
+    opacity: 0.9,
+    width: "100%",
+    height: "100%",
+  });
+}, 3000);
 
 // setInterval(() => {
 //     var HIENTAI = new Date.getTime();

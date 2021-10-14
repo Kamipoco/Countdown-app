@@ -5,12 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./public/css/style.css">
     <title>Countdown</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
     <script src="./public/js/jquery.fireworks.js"></script>
 </head>
 <body>
     <div id="phaohoa">
-        
+        <!-- Modal Trigger -->
+        <a class="waves-effect waves-light btn modal-trigger" style="margin-right: 10px;" href="#modal1">Nhận lời chúc</a>
+
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+            <h4>Happy new year 2022</h4>
+            <p>Tết đến, xuân về, an khang thịnh vượng, phát tài phát lộc, sức khỏe dồi dào, mọi điều như ý.</p>
+            </div>
+            <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Cancel</a>
+            </div>
+        </div>
+          
     </div>
 
     <div class="item">
@@ -29,6 +49,8 @@
         <p>SECONDS</p>
         <span id="seconds">Seconds</span>
     </div>
+
+
 </body>
 <script src="./app.js"></script>
 </html>
